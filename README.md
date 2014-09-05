@@ -47,5 +47,5 @@ The tutorial was used as a guide to setup the 3D environment to better showcase 
 [4] Shoemake, Ken, "Arcball Rotation Control", in Graphics Gems IV, First Edition.
     AP Professional, ch. 3, sec. 1, pp. 175-192.
 
-[5] (2012, November 8) Tutorial 6 : Keyboard and Mouse [online]. Available at: http://www.opengl-tutorial.org/beginners-tutorials/tutorial-6-keyboard-and-mouse/
+[5] OpenGL Tutorial Team, (2012, November 8) Tutorial 6 : Keyboard and Mouse [online]. Available at: http://www.opengl-tutorial.org/beginners-tutorials/tutorial-6-keyboard-and-mouse/
 
