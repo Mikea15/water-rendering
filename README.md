@@ -38,10 +38,14 @@ The tutorial was used as a guide to setup the 3D environment to better showcase 
 ##References
 [1] Mortveit, Henning, "Reflections from Bumpy Surfaces", in ShaderX3 Advanced Rendering with DirectX and OpenGL, First Edition. 
     Hingham, Massacusetts: Charles River Media, 2004, ch. 2, sec. 3, pp. 107-118.
+
 [2] Kryachko, Yuri, "Using Vertex Texture Displacement for Realistic Water Rendering", in GPU Gems 2, First Edition.
     Addison-Wesley, 2005, ch. 18, pp. 283-294
+
 [3] digiben, (2006, August 24) "Height Map Part6" [online]. Available at: http://www.gametutorials.com/tutorial/height-map-part6/
+
 [4] Shoemake, Ken, "Arcball Rotation Control", in Graphics Gems IV, First Edition.
     AP Professional, ch. 3, sec. 1, pp. 175-192.
+
 [5] (2012, November 8) Tutorial 6 : Keyboard and Mouse [online]. Available at: http://www.opengl-tutorial.org/beginners-tutorials/tutorial-6-keyboard-and-mouse/
 
