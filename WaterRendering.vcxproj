@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{43D8B418-DAF3-4136-9002-AAA071190505}</ProjectGuid>
+    <RootNamespace>WaterRendering</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>D:\Projects\VS\WaterRendering\trunk;C:\Libs\GLM;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="bin\TGAtoDOT3.exe" />
+    <None Include="bin\TGAtoDUDV.exe" />
+    <None Include="maps\Terrain.raw" />
+    <None Include="shaders\water.frag" />
+    <None Include="shaders\water.vert" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="textures\Back.bmp" />
+    <Image Include="textures\blend1_dudv.bmp" />
+    <Image Include="textures\blend1_normal.bmp" />
+    <Image Include="textures\blend2_dudv.bmp" />
+    <Image Include="textures\blend2_normal.bmp" />
+    <Image Include="textures\Bottom.bmp" />
+    <Image Include="textures\caust00.bmp" />
+    <Image Include="textures\caust01.bmp" />
+    <Image Include="textures\caust02.bmp" />
+    <Image Include="textures\caust03.bmp" />
+    <Image Include="textures\caust04.bmp" />
+    <Image Include="textures\caust05.bmp" />
+    <Image Include="textures\caust06.bmp" />
+    <Image Include="textures\caust07.bmp" />
+    <Image Include="textures\caust08.bmp" />
+    <Image Include="textures\caust09.bmp" />
+    <Image Include="textures\caust10.bmp" />
+    <Image Include="textures\caust11.bmp" />
+    <Image Include="textures\caust12.bmp" />
+    <Image Include="textures\caust13.bmp" />
+    <Image Include="textures\caust14.bmp" />
+    <Image Include="textures\caust15.bmp" />
+    <Image Include="textures\caust16.bmp" />
+    <Image Include="textures\caust17.bmp" />
+    <Image Include="textures\caust18.bmp" />
+    <Image Include="textures\caust19.bmp" />
+    <Image Include="textures\caust20.bmp" />
+    <Image Include="textures\caust21.bmp" />
+    <Image Include="textures\caust22.bmp" />
+    <Image Include="textures\caust23.bmp" />
+    <Image Include="textures\caust24.bmp" />
+    <Image Include="textures\caust25.bmp" />
+    <Image Include="textures\caust26.bmp" />
+    <Image Include="textures\caust27.bmp" />
+    <Image Include="textures\caust28.bmp" />
+    <Image Include="textures\caust29.bmp" />
+    <Image Include="textures\caust30.bmp" />
+    <Image Include="textures\caust31.bmp" />
+    <Image Include="textures\Detail.bmp" />
+    <Image Include="textures\dudvmap.bmp" />
+    <Image Include="textures\dudvmap2.bmp" />
+    <Image Include="textures\dudvmap3.bmp" />
+    <Image Include="textures\dudvmap4.bmp" />
+    <Image Include="textures\Front.bmp" />
+    <Image Include="textures\Left.bmp" />
+    <Image Include="textures\normalmap.bmp" />
+    <Image Include="textures\normalmap2.bmp" />
+    <Image Include="textures\normalmap3.bmp" />
+    <Image Include="textures\normalmap4.bmp" />
+    <Image Include="textures\Right.bmp" />
+    <Image Include="textures\Terrain.bmp" />
+    <Image Include="textures\Top.bmp" />
+    <Image Include="tga files\blend1.tga" />
+    <Image Include="tga files\blend1DOT3.tga" />
+    <Image Include="tga files\blend1_DUDV.tga" />
+    <Image Include="tga files\blend2.tga" />
+    <Image Include="tga files\blend2DOT3.tga" />
+    <Image Include="tga files\blend2DOT3_DUDV.tga" />
+    <Image Include="tga files\water2.tga" />
+    <Image Include="tga files\water2DOT3.tga" />
+    <Image Include="tga files\water2DOT3_DUDV.tga" />
+    <Image Include="tga files\water3.tga" />
+    <Image Include="tga files\water3DOT3.tga" />
+    <Image Include="tga files\water3DOT3_DUDV.tga" />
+    <Image Include="tga files\water4.tga" />
+    <Image Include="tga files\water4DOT3.tga" />
+    <Image Include="tga files\water4DOT3_DUDV.tga" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\GCamera.h" />
+    <ClInclude Include="include\Init.h" />
+    <ClInclude Include="include\main.h" />
+    <ClInclude Include="include\Render.h" />
+    <ClInclude Include="include\Shader.h" />
+    <ClInclude Include="include\Terrain.h" />
+    <ClInclude Include="include\Water.h" />
+    <ClInclude Include="include\Window.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\GCamera.cpp" />
+    <ClCompile Include="source\Init.cpp" />
+    <ClCompile Include="source\main.cpp" />
+    <ClCompile Include="source\Render.cpp" />
+    <ClCompile Include="source\Shader.cpp" />
+    <ClCompile Include="source\Terrain.cpp" />
+    <ClCompile Include="source\Water.cpp" />
+    <ClCompile Include="source\Window.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="README.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,304 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Shader Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Map Files">
+      <UniqueIdentifier>{a77a2ef2-e98d-402d-86d8-2e9487f2f2e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Texture Files">
+      <UniqueIdentifier>{8d5015b7-95ac-4f8b-a10c-85b197e8bc0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Exe Files">
+      <UniqueIdentifier>{a29fb0af-a07d-4076-9633-743135ef38fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TGA Files">
+      <UniqueIdentifier>{caceee60-781e-48b5-a17a-5d140db3a428}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="maps\Terrain.raw">
+      <Filter>Map Files</Filter>
+    </None>
+    <None Include="shaders\water.frag">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="shaders\water.vert">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="bin\TGAtoDOT3.exe">
+      <Filter>Exe Files</Filter>
+    </None>
+    <None Include="bin\TGAtoDUDV.exe">
+      <Filter>Exe Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="textures\Back.bmp">
+      <Filter>Texture Files</Filter>
+    </Image>
+    <Image Include="textures\Bottom.bmp">
+      <Filter>Texture Files</Filter>
+    </Image>
+    <Image Include="textures\caust00.bmp">
+      <Filter>Texture Files</Filter>
+    </Image>
+    <Image Include="textures\caust01.bmp">
+      <Filter>Texture Files</Filter>
+    </Image>
+    <Image Include="textures\caust02.bmp">
+      <Filter>Texture Files</Filter>
+    </Image>
+    <Image Include="textures\caust03.bmp">
+      <Filter>Texture Files</Filter>
+    </Image>
+    <Image Include="textures\caust04.bmp">
+      <Filter>Texture Files</Filter>
+    </Image>
+    <Image Include="textures\caust05.bmp">
+      <Filter>Texture Files</Filter>
+    </Image>
+    <Image Include="textures\caust06.bmp">
+      <Filter>Texture Files</Filter>
+    </Image>
+    <Image Include="textures\caust07.bmp">
+      <Filter>Texture Files</Filter>
+    </Image>
+    <Image Include="textures\caust08.bmp">
+      <Filter>Texture Files</Filter>
+    </Image>
+    <Image Include="textures\caust09.bmp">
+      <Filter>Texture Files</Filter>
+    </Image>
+    <Image Include="textures\caust10.bmp">
+      <Filter>Texture Files</Filter>
+    </Image>
+    <Image Include="textures\caust11.bmp">
+      <Filter>Texture Files</Filter>
+    </Image>
+    <Image Include="textures\caust12.bmp">
+      <Filter>Texture Files</Filter>
+    </Image>
+    <Image Include="textures\caust13.bmp">
+      <Filter>Texture Files</Filter>
+    </Image>
+    <Image Include="textures\caust14.bmp">
+      <Filter>Texture Files</Filter>
+    </Image>
+    <Image Include="textures\caust15.bmp">
+      <Filter>Texture Files</Filter>
+    </Image>
+    <Image Include="textures\caust16.bmp">
+      <Filter>Texture Files</Filter>
+    </Image>
+    <Image Include="textures\caust17.bmp">
+      <Filter>Texture Files</Filter>
+    </Image>
+    <Image Include="textures\caust18.bmp">
+      <Filter>Texture Files</Filter>
+    </Image>
+    <Image Include="textures\caust19.bmp">
+      <Filter>Texture Files</Filter>
+    </Image>
+    <Image Include="textures\caust20.bmp">
+      <Filter>Texture Files</Filter>
+    </Image>
+    <Image Include="textures\caust21.bmp">
+      <Filter>Texture Files</Filter>
+    </Image>
+    <Image Include="textures\caust22.bmp">
+      <Filter>Texture Files</Filter>
+    </Image>
+    <Image Include="textures\caust23.bmp">
+      <Filter>Texture Files</Filter>
+    </Image>
+    <Image Include="textures\caust24.bmp">
+      <Filter>Texture Files</Filter>
+    </Image>
+    <Image Include="textures\caust25.bmp">
+      <Filter>Texture Files</Filter>
+    </Image>
+    <Image Include="textures\caust26.bmp">
+      <Filter>Texture Files</Filter>
+    </Image>
+    <Image Include="textures\caust27.bmp">
+      <Filter>Texture Files</Filter>
+    </Image>
+    <Image Include="textures\caust28.bmp">
+      <Filter>Texture Files</Filter>
+    </Image>
+    <Image Include="textures\caust29.bmp">
+      <Filter>Texture Files</Filter>
+    </Image>
+    <Image Include="textures\caust30.bmp">
+      <Filter>Texture Files</Filter>
+    </Image>
+    <Image Include="textures\caust31.bmp">
+      <Filter>Texture Files</Filter>
+    </Image>
+    <Image Include="textures\Detail.bmp">
+      <Filter>Texture Files</Filter>
+    </Image>
+    <Image Include="textures\dudvmap.bmp">
+      <Filter>Texture Files</Filter>
+    </Image>
+    <Image Include="textures\Front.bmp">
+      <Filter>Texture Files</Filter>
+    </Image>
+    <Image Include="textures\Left.bmp">
+      <Filter>Texture Files</Filter>
+    </Image>
+    <Image Include="textures\normalmap.bmp">
+      <Filter>Texture Files</Filter>
+    </Image>
+    <Image Include="textures\Right.bmp">
+      <Filter>Texture Files</Filter>
+    </Image>
+    <Image Include="textures\Terrain.bmp">
+      <Filter>Texture Files</Filter>
+    </Image>
+    <Image Include="textures\Top.bmp">
+      <Filter>Texture Files</Filter>
+    </Image>
+    <Image Include="textures\dudvmap2.bmp">
+      <Filter>Texture Files</Filter>
+    </Image>
+    <Image Include="textures\dudvmap3.bmp">
+      <Filter>Texture Files</Filter>
+    </Image>
+    <Image Include="textures\dudvmap4.bmp">
+      <Filter>Texture Files</Filter>
+    </Image>
+    <Image Include="textures\normalmap2.bmp">
+      <Filter>Texture Files</Filter>
+    </Image>
+    <Image Include="textures\normalmap3.bmp">
+      <Filter>Texture Files</Filter>
+    </Image>
+    <Image Include="textures\normalmap4.bmp">
+      <Filter>Texture Files</Filter>
+    </Image>
+    <Image Include="tga files\water2.tga">
+      <Filter>TGA Files</Filter>
+    </Image>
+    <Image Include="tga files\water2DOT3.tga">
+      <Filter>TGA Files</Filter>
+    </Image>
+    <Image Include="tga files\water2DOT3_DUDV.tga">
+      <Filter>TGA Files</Filter>
+    </Image>
+    <Image Include="tga files\water3.tga">
+      <Filter>TGA Files</Filter>
+    </Image>
+    <Image Include="tga files\water3DOT3.tga">
+      <Filter>TGA Files</Filter>
+    </Image>
+    <Image Include="tga files\water3DOT3_DUDV.tga">
+      <Filter>TGA Files</Filter>
+    </Image>
+    <Image Include="tga files\water4.tga">
+      <Filter>TGA Files</Filter>
+    </Image>
+    <Image Include="tga files\water4DOT3.tga">
+      <Filter>TGA Files</Filter>
+    </Image>
+    <Image Include="tga files\water4DOT3_DUDV.tga">
+      <Filter>TGA Files</Filter>
+    </Image>
+    <Image Include="tga files\blend1.tga">
+      <Filter>TGA Files</Filter>
+    </Image>
+    <Image Include="tga files\blend1_DUDV.tga">
+      <Filter>TGA Files</Filter>
+    </Image>
+    <Image Include="tga files\blend1DOT3.tga">
+      <Filter>TGA Files</Filter>
+    </Image>
+    <Image Include="tga files\blend2.tga">
+      <Filter>TGA Files</Filter>
+    </Image>
+    <Image Include="tga files\blend2DOT3.tga">
+      <Filter>TGA Files</Filter>
+    </Image>
+    <Image Include="tga files\blend2DOT3_DUDV.tga">
+      <Filter>TGA Files</Filter>
+    </Image>
+    <Image Include="textures\blend1_dudv.bmp">
+      <Filter>Texture Files</Filter>
+    </Image>
+    <Image Include="textures\blend1_normal.bmp">
+      <Filter>Texture Files</Filter>
+    </Image>
+    <Image Include="textures\blend2_dudv.bmp">
+      <Filter>Texture Files</Filter>
+    </Image>
+    <Image Include="textures\blend2_normal.bmp">
+      <Filter>Texture Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\GCamera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Terrain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Water.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Window.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Render.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Init.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\GCamera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Init.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Water.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Terrain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Render.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="README.txt" />
+  </ItemGroup>
+</Project>
